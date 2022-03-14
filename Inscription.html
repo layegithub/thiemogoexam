@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>FORMULAIRE VERT</title>
+ <link rel="stylesheet" href="Inscription.css">
+</head>
+<body>
+    <h1> FICHE D'INSCRIPTION <br>APPEL A CANDIDATURE</h1>
+        <form action="">
+            <div class="Superdiv1">
+                <div class="A1">
+                    <div class="B1"><strong>Civilité :</strong></br>
+                        <select name="civilite">
+                            <option value="madame">MADAME</option>
+                            <option value="mademoiselle">MADEMOISELLE</option>
+                            <option value="monsieur">MONSIEUR</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="A2">
+                    <div class="B2"><strong>Nom :</strong></br>
+                        <label>
+                            <input type="text" placeholder="Nom" maxlength="25" name="nom">
+                            <span>25</span>
+                        </label>
+                    </div> 
+                </div>
+                <div class="A3">
+                    <div class="B3"><strong>Prénom :</strong></br>
+                        <label>
+                            <input type="text" placeholder="Prenom" maxlength="25" name="25">
+                            <span>25</span>
+                        </label>
+                    </div> 
+                </div>
+                <div class="A4">
+                    <div class="B4"><strong>Télèphone :</strong></br>
+                        <label>
+                            <input type="number_format" placeholder="(+221)"maxlength="9">
+                            <span>9</span>
+                        </label>
+                    </div> 
+                </div>
+                <div class="A5">
+                    <div class="B5"><strong>Adresse Mail :</strong></br>
+                        <input type="email" placeholder="Adresse Mail">
+                    </div> 
+                </div>
+                <div class="A6">
+                    <div class="B6"><strong>Adresse Physique :</strong></br>
+                        <input type="text" placeholder="Adresse Physique">
+                    </div> 
+                </div>
+                <div class="A7">
+                    <div class="B7"><strong>Niveau d'Etude :</strong></br>
+                        <select name="Niveau d'Etude">
+                            <option value="befm">BEFM</option>
+                            <option value="bac">BAC</option>
+                            <option value="bac+1">BAC + 1</option>
+                            <option value="bac+2">BAC + 2</option>
+                            <option value="bac+3">BAC + 3</option>
+                            <option value="master1">MASTER 1</option>
+                            <option value="master2">MASTER 2</option>
+                        </select>
+                    </div> 
+                </div>
+                <div class="A8">
+                    <div class="B8"><strong>Motivation :</strong></br>
+                        <input type="text" class="C8" placeholder="Motivation">
+                    </div> 
+                </div>
+            </div>
+        </form>  
+            <div class="Superdiv2">
+                <button type="submit"><strong>ENVOYEZ</strong></button>
+            </div>
+</body>
+<script src="Inscription.js"></script>
+</html>

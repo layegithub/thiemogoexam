@@ -1,0 +1,66 @@
+body
+{
+    background-color: rgb(246, 248, 244);
+}
+
+h1
+{
+    text-align: center;
+    font-style: italic;
+}
+
+.Superdiv1
+{
+    padding: 20px;
+    height: 478px;
+    width: 300px;
+    background-color: rgb(202, 224, 184);
+    border: 2px solid;
+    margin-left: 473px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.A1,.A2,.A3,.A4,.A5,.A6,.A7,.A8
+{
+    font-style: italic;
+    margin-top: 10px;
+}
+
+button
+{
+    border: 1px solid;
+    border-radius: 10px;
+    margin-left: 600px;
+    padding: 5px;
+    font-style: italic;
+    background-color: rgb(177, 243, 139);
+}
+
+.C8
+{
+    height: 105px;
+    width: 293px;
+}
+
+label
+{
+    position: relative;
+}
+
+label span
+{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: red, .2;
+    border-radius: 5px;
+    color: #F5F8FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .8rem;
+}
